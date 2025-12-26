@@ -1,6 +1,6 @@
 import type React from "react";
 import Link from "next/link";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const footerLinks = {
   project: [
@@ -40,10 +40,20 @@ export function Footer() {
           <FooterColumn title="Lets code" links={footerLinks.letsCode} />
         </div>
 
-        <div className="flex items-center gap-3 text-slate-200">
-          <SocialLink href="https://github.com/avinash201199" icon={<Github className="h-5 w-5" />} label="GitHub" />
-          <SocialLink href="https://x.com/AvinashSingh_20" icon={<Twitter className="h-5 w-5" />} label="Twitter" />
-          <SocialLink href="https://www.linkedin.com/in/avinash-singh-bb0b8a371/" icon={<Linkedin className="h-5 w-5" />} label="LinkedIn" />
+        <div className="flex flex-col gap-4">
+          <Link
+            href="https://github.com/sponsors/avinash201199"
+            target="_blank"
+            className="flex items-center gap-2 rounded-lg border border-pink-500/30 bg-gradient-to-r from-pink-500/10 to-purple-500/10 px-4 py-2 text-sm font-medium text-pink-300 transition-all hover:border-pink-500/50 hover:from-pink-500/20 hover:to-purple-500/20 hover:text-pink-200"
+          >
+            <Heart className="h-4 w-4 fill-current" />
+            Sponsor this project
+          </Link>
+          <div className="flex items-center gap-3 text-slate-200">
+            <SocialLink href="https://github.com/avinash201199" icon={<Github className="h-5 w-5" />} label="GitHub" />
+            <SocialLink href="https://x.com/AvinashSingh_20" icon={<Twitter className="h-5 w-5" />} label="Twitter" />
+            <SocialLink href="https://www.linkedin.com/in/avinash-singh-bb0b8a371/" icon={<Linkedin className="h-5 w-5" />} label="LinkedIn" />
+          </div>
         </div>
       </div>
     </footer>

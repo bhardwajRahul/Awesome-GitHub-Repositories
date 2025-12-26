@@ -2,12 +2,27 @@
 
 *(Curated by [@AvinashSingh_20](https://x.com/AvinashSingh_20/))*
 
-
-<p>
-  <a href="https://github.com/sponsors/YOUR-USERNAME">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4" alt="Sponsor">
+<p align="center">
+  <a href="https://github.com/sponsors/avinash201199">
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4" alt="Sponsor on GitHub">
+  </a>
+  <a href="https://www.buymeacoffee.com/avinash201199">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow?logo=buy-me-a-coffee" alt="Buy Me A Coffee">
   </a>
 </p>
+
+---
+
+## 💖 Support This Project
+
+If you find this collection valuable, please consider supporting the project:
+- ⭐ **Star this repository** to help others discover it
+- 💰 **[Sponsor on GitHub](https://github.com/sponsors/avinash201199)** for ongoing support
+- ☕ **[Buy me a coffee](https://www.buymeacoffee.com/avinash201199)** for a one-time contribution
+- 🐦 **Share it** on social media with your network
+- 🤝 **Contribute** by adding new repositories or improving existing content
+
+Your support helps maintain and grow this collection for the entire developer community!
 
 A community-maintained, ever-growing collection of the best open-source GitHub repositories shared in one of the most helpful tech threads on X (Twitter).  
 This list is organized by topic and includes short descriptions to help you quickly find what you need.
@@ -18,6 +33,7 @@ You're very welcome! Just follow the simple steps at the bottom.
 ---
 
 ## Table of Contents
+- [💖 Support This Project](#-support-this-project)
 - [AI & Machine Learning](#ai--machine-learning)
 - [Data Science & Analytics](#data-science--analytics)
 - [Web Development](#web-development)
